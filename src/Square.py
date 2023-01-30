@@ -18,4 +18,4 @@ circle = Circle(15)
 
 print(square.area)
 print(circle.area)
-print(square.add_area(circle.area))
+print(square.add_area(circle))
