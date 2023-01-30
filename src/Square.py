@@ -1,5 +1,6 @@
 from src.Rectangle import Rectangle
 from src.Circle import Circle
+from src.Triangle import Triangle
 
 
 class Square(Rectangle):
@@ -15,6 +16,7 @@ class Square(Rectangle):
 
 square = Square(side=3)
 circle = Circle(15)
+triangle = Triangle(1, 0, 3)
 
 print(square.area)
 print(circle.area)

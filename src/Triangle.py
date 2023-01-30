@@ -1,4 +1,5 @@
 from src.GeometricFigure import GeometricFigure
+import pytest
 
 
 class Triangle(GeometricFigure):
@@ -8,6 +9,8 @@ class Triangle(GeometricFigure):
         self.a = a
         self.b = b
         self.c = c
+        if a == 0 | b == 0 | c == 0:
+            raise ValueError
 
     @property
     def area(self):
@@ -16,4 +19,3 @@ class Triangle(GeometricFigure):
     @property
     def perimeter(self):
         return self.a + self.b + self.c
-
