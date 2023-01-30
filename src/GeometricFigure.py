@@ -2,6 +2,6 @@ class GeometricFigure:
     def area(self):
         pass
 
-    def add_area(self, figureArea):
-        sum_area = self.area + figureArea
+    def add_area(self, figure_area):
+        sum_area = self.area + figure_area
         return sum_area
