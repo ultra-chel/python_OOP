@@ -1,5 +1,4 @@
 from src.GeometricFigure import GeometricFigure
-import pytest
 
 
 class Triangle(GeometricFigure):

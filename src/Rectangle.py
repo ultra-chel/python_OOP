@@ -14,4 +14,4 @@ class Rectangle(GeometricFigure):
 
     @property
     def perimeter(self):
-        return (self.side_a + self.side_b)*2
+        return (self.side_a + self.side_b) * 2
